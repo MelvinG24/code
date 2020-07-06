@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: scratch\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-26 16:55+0000\n"
-"PO-Revision-Date: 2020-02-22 14:09+0000\n"
+"POT-Creation-Date: 2020-05-29 01:16+0000\n"
+"PO-Revision-Date: 2020-04-14 14:10+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/code/code/fi/>\n"
 "Language: fi\n"
@@ -94,36 +94,36 @@ msgstr "Etsi…"
 msgid "Hide search bar"
 msgstr "Piilota hakupalkki"
 
-#: src/MainWindow.vala:262
+#: src/MainWindow.vala:267
 msgid "Zeitgeist Datasource for Code"
 msgstr "Zeitgeist-tietolähde Code-sovellukselle"
 
-#: src/MainWindow.vala:770 src/Services/Document.vala:502
+#: src/MainWindow.vala:763 src/Services/Document.vala:502
 msgid "All files"
 msgstr "Kaikki tiedostot"
 
-#: src/MainWindow.vala:774 src/Services/Document.vala:506
+#: src/MainWindow.vala:767 src/Services/Document.vala:506
 msgid "Text files"
 msgstr "Tekstitiedostot"
 
-#: src/MainWindow.vala:778
+#: src/MainWindow.vala:771
 msgid "Open some files"
 msgstr "Avaa tiedostoja"
 
-#: src/MainWindow.vala:781
+#: src/MainWindow.vala:774
 msgid "Open"
 msgstr "Avaa"
 
-#: src/MainWindow.vala:782 src/Services/Document.vala:401
+#: src/MainWindow.vala:775 src/Services/Document.vala:401
 #: src/Services/Document.vala:514
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/MainWindow.vala:807
+#: src/MainWindow.vala:800
 msgid "_Open"
 msgstr "_Avaa"
 
-#: src/MainWindow.vala:808
+#: src/MainWindow.vala:801
 msgid "_Cancel"
 msgstr "_Peru"
 
@@ -298,12 +298,12 @@ msgstr "Sulje muut kansiot"
 #: src/FolderManager/ProjectFolderItem.vala:188
 #, c-format
 msgid "%s, Modified"
-msgstr ""
+msgstr "%s, muokattu"
 
 #: src/FolderManager/ProjectFolderItem.vala:197
 #, c-format
 msgid "%s, New"
-msgstr ""
+msgstr "%s, uusi"
 
 #: src/FolderManager/ProjectFolderItem.vala:347
 msgid "Branch"
@@ -562,11 +562,11 @@ msgstr "Syklinen haku"
 
 #: src/Widgets/SearchBar.vala:93
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Huomioi kirjainkoko"
 
 #: src/Widgets/SearchBar.vala:93
 msgid "Case Insensitive"
-msgstr ""
+msgstr "Älä huomioi kirjainkokoa"
 
 #: src/Widgets/SearchBar.vala:112
 msgid "Replace With"
@@ -580,11 +580,11 @@ msgstr "Korvaa"
 msgid "Replace all"
 msgstr "Korvaa kaikki"
 
-#: src/Widgets/SourceView.vala:393
+#: src/Widgets/SourceView.vala:408
 msgid "Sort Selected Lines"
 msgstr "Järjestä valitut rivit"
 
-#: src/Widgets/SourceView.vala:406
+#: src/Widgets/SourceView.vala:421
 msgid "Toggle Comment"
 msgstr "Kytke kommentti"
 
@@ -685,6 +685,12 @@ msgstr "Lähetä Pastebiniin"
 msgid "Symbols"
 msgstr "Symbolit"
 
+#: plugins/outline/OutlinePlugin.vala:34
+#, fuzzy
+#| msgid "Symbols"
+msgid "No Symbols Found"
+msgstr "Symbolit"
+
 #: plugins/terminal/terminal.vala:176 plugins/terminal/terminal.vala:183
 msgid "Show Terminal"
 msgstr "Näytä pääte"
@@ -721,11 +727,11 @@ msgstr "Näytä esikatselu"
 msgid "Hide Preview"
 msgstr "Piilota esikatselu"
 
-#: plugins/spell/spell.vala:74
+#: plugins/spell/spell.vala:73
 msgid "No Suitable Dictionaries Were Found"
 msgstr "Sopivia sanakirjoja ei löytynyt"
 
-#: plugins/spell/spell.vala:75
+#: plugins/spell/spell.vala:74
 msgid "Please install at least one [aspell] dictionary."
 msgstr "Asenna vähintään yksi [aspell]-sanakirja."
 

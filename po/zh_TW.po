@@ -6,23 +6,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: scratch\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-26 16:55+0000\n"
-"PO-Revision-Date: 2018-03-21 01:09+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
-"code/code/zh_TW/>\n"
+"POT-Creation-Date: 2020-05-29 01:16+0000\n"
+"PO-Revision-Date: 2020-06-30 21:12+0000\n"
+"Last-Translator: Nan-Hung Hsieh <nhsieh@cvm.tamu.edu>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
+"code/code/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-05-03 06:04+0000\n"
 
 #: src/Application.vala:134
-#, fuzzy, c-format
+#, c-format
 msgid "File \"%s\" Cannot Be Created"
-msgstr "無法讀取「%s」檔案"
+msgstr "檔案「%s」無法產生"
 
 #. We list some common errors for quick feedback
 #: src/Application.vala:138
@@ -59,9 +59,9 @@ msgid "It is an \"unknown\" file type."
 msgstr "這是「未知」檔案類型。"
 
 #: src/Application.vala:176
-#, fuzzy, c-format
+#, c-format
 msgid "File \"%s\" Cannot Be Opened"
-msgstr "無法讀取「%s」檔案"
+msgstr "檔案「%s」無法開啟"
 
 #: src/Application.vala:248
 msgid "New Tab"
@@ -80,9 +80,8 @@ msgid "Set of plugins"
 msgstr "插件集"
 
 #: src/Application.vala:251
-#, fuzzy
 msgid "plugin"
-msgstr "插件集"
+msgstr "插件"
 
 #: src/MainWindow.vala:137
 msgid "Code"
@@ -96,37 +95,37 @@ msgstr "尋找…"
 msgid "Hide search bar"
 msgstr "隱藏搜尋列"
 
-#: src/MainWindow.vala:262
+#: src/MainWindow.vala:267
 #, fuzzy
 msgid "Zeitgeist Datasource for Code"
 msgstr "供 Scratch 使用的 Zeitgeist 資料來源"
 
-#: src/MainWindow.vala:770 src/Services/Document.vala:502
+#: src/MainWindow.vala:763 src/Services/Document.vala:502
 msgid "All files"
 msgstr "所有檔案"
 
-#: src/MainWindow.vala:774 src/Services/Document.vala:506
+#: src/MainWindow.vala:767 src/Services/Document.vala:506
 msgid "Text files"
 msgstr "文字檔案"
 
-#: src/MainWindow.vala:778
+#: src/MainWindow.vala:771
 msgid "Open some files"
 msgstr "開啟一些檔案"
 
-#: src/MainWindow.vala:781
+#: src/MainWindow.vala:774
 msgid "Open"
 msgstr "開啟"
 
-#: src/MainWindow.vala:782 src/Services/Document.vala:401
+#: src/MainWindow.vala:775 src/Services/Document.vala:401
 #: src/Services/Document.vala:514
 msgid "Cancel"
 msgstr "取消"
 
-#: src/MainWindow.vala:807
+#: src/MainWindow.vala:800
 msgid "_Open"
 msgstr "開啟(_O)"
 
-#: src/MainWindow.vala:808
+#: src/MainWindow.vala:801
 msgid "_Cancel"
 msgstr "取消(_C)"
 
@@ -191,7 +190,7 @@ msgstr "編輯器"
 
 #: src/Dialogs/PreferencesDialog.vala:114
 msgid "Highlight matching brackets:"
-msgstr "標明對稱括號："
+msgstr "標明對應括號："
 
 #: src/Dialogs/PreferencesDialog.vala:117
 msgid "Line wrap:"
@@ -203,7 +202,7 @@ msgstr "描繪空格數："
 
 #: src/Dialogs/PreferencesDialog.vala:122
 msgid "For selected text"
-msgstr "對於選取的文字"
+msgstr "針對選取文字"
 
 #: src/Dialogs/PreferencesDialog.vala:123
 msgid "Always"
@@ -512,9 +511,8 @@ msgid "Solarized Dark"
 msgstr "Solarized 暗色"
 
 #: src/Widgets/HeaderBar.vala:144
-#, fuzzy
 msgid "Toggle Sidebar"
-msgstr "側邊欄"
+msgstr "縮放側邊欄"
 
 #: src/Widgets/HeaderBar.vala:154
 msgid "Add New View"
@@ -529,22 +527,20 @@ msgid "Menu"
 msgstr "選單"
 
 #: src/Widgets/Pane.vala:44
-#, fuzzy
-#| msgid "Open a folder"
 msgid "Open project folder…"
-msgstr "開啟資料夾"
+msgstr "開啟專案目錄…"
 
 #: src/Widgets/Pane.vala:46
 msgid "Collapse All"
-msgstr ""
+msgstr "收折所有檔案"
 
 #: src/Widgets/Pane.vala:49
 msgid "Alphabetize"
-msgstr ""
+msgstr "依字母排序"
 
 #: src/Widgets/Pane.vala:60
 msgid "Manage project folders"
-msgstr ""
+msgstr "管理專案目錄"
 
 #: src/Widgets/SearchBar.vala:63
 msgid "Find"
@@ -582,12 +578,12 @@ msgstr "取代"
 msgid "Replace all"
 msgstr "全部取代"
 
-#: src/Widgets/SourceView.vala:393
+#: src/Widgets/SourceView.vala:408
 #, fuzzy
 msgid "Sort Selected Lines"
 msgstr "對於選取的文字"
 
-#: src/Widgets/SourceView.vala:406
+#: src/Widgets/SourceView.vala:421
 msgid "Toggle Comment"
 msgstr ""
 
@@ -693,6 +689,12 @@ msgstr "上傳至 Pastebin"
 msgid "Symbols"
 msgstr "符號"
 
+#: plugins/outline/OutlinePlugin.vala:34
+#, fuzzy
+#| msgid "Symbols"
+msgid "No Symbols Found"
+msgstr "符號"
+
 #: plugins/terminal/terminal.vala:176 plugins/terminal/terminal.vala:183
 msgid "Show Terminal"
 msgstr "顯示終端機"
@@ -729,11 +731,11 @@ msgstr "顯示預覽"
 msgid "Hide Preview"
 msgstr "隱藏預覽"
 
-#: plugins/spell/spell.vala:74
+#: plugins/spell/spell.vala:73
 msgid "No Suitable Dictionaries Were Found"
 msgstr ""
 
-#: plugins/spell/spell.vala:75
+#: plugins/spell/spell.vala:74
 #, fuzzy
 msgid "Please install at least one [aspell] dictionary."
 msgstr ""

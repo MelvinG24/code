@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-26 16:55+0000\n"
-"PO-Revision-Date: 2020-03-17 18:09+0000\n"
+"POT-Creation-Date: 2020-05-29 01:16+0000\n"
+"PO-Revision-Date: 2020-06-01 16:11+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/code/code/mr/>\n"
 "Language: mr\n"
@@ -89,36 +89,36 @@ msgstr "शोधा…"
 msgid "Hide search bar"
 msgstr "सर्च बार लपवा"
 
-#: src/MainWindow.vala:262
+#: src/MainWindow.vala:267
 msgid "Zeitgeist Datasource for Code"
 msgstr "कोड साठी Zeitgeist डेटा स्त्रोत"
 
-#: src/MainWindow.vala:770 src/Services/Document.vala:502
+#: src/MainWindow.vala:763 src/Services/Document.vala:502
 msgid "All files"
 msgstr "सर्व फाईल्स"
 
-#: src/MainWindow.vala:774 src/Services/Document.vala:506
+#: src/MainWindow.vala:767 src/Services/Document.vala:506
 msgid "Text files"
 msgstr "टेक्स्ट फाईल्स"
 
-#: src/MainWindow.vala:778
+#: src/MainWindow.vala:771
 msgid "Open some files"
 msgstr "काही फाईल्स उघडा"
 
-#: src/MainWindow.vala:781
+#: src/MainWindow.vala:774
 msgid "Open"
 msgstr "उघडा"
 
-#: src/MainWindow.vala:782 src/Services/Document.vala:401
+#: src/MainWindow.vala:775 src/Services/Document.vala:401
 #: src/Services/Document.vala:514
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/MainWindow.vala:807
+#: src/MainWindow.vala:800
 msgid "_Open"
 msgstr "उघडा"
 
-#: src/MainWindow.vala:808
+#: src/MainWindow.vala:801
 msgid "_Cancel"
 msgstr "रद्द करा"
 
@@ -554,11 +554,11 @@ msgstr "चक्री शोध"
 
 #: src/Widgets/SearchBar.vala:93
 msgid "Case Sensitive"
-msgstr ""
+msgstr "केस संवेदनशील"
 
 #: src/Widgets/SearchBar.vala:93
 msgid "Case Insensitive"
-msgstr ""
+msgstr "केस असंवेदनशील"
 
 #: src/Widgets/SearchBar.vala:112
 msgid "Replace With"
@@ -572,11 +572,11 @@ msgstr "बदला"
 msgid "Replace all"
 msgstr "सर्व ठिकाणी बदला"
 
-#: src/Widgets/SourceView.vala:393
+#: src/Widgets/SourceView.vala:408
 msgid "Sort Selected Lines"
 msgstr "निवडलेल्या ओळी क्रमबद्ध करा"
 
-#: src/Widgets/SourceView.vala:406
+#: src/Widgets/SourceView.vala:421
 msgid "Toggle Comment"
 msgstr "टिप्पणी टॉगल  करा"
 
@@ -677,6 +677,10 @@ msgstr "पेस्टबीन वर अपलोड करा"
 msgid "Symbols"
 msgstr "सिम्बॉल्स"
 
+#: plugins/outline/OutlinePlugin.vala:34
+msgid "No Symbols Found"
+msgstr "कोणतेही सिम्बॉल्स सापडले नाही"
+
 #: plugins/terminal/terminal.vala:176 plugins/terminal/terminal.vala:183
 msgid "Show Terminal"
 msgstr "टर्मिनल दाखवा"
@@ -713,11 +717,11 @@ msgstr "पूर्वावलोकन दाखवा"
 msgid "Hide Preview"
 msgstr "पूर्वावलोकन लपवा"
 
-#: plugins/spell/spell.vala:74
+#: plugins/spell/spell.vala:73
 msgid "No Suitable Dictionaries Were Found"
 msgstr "कोणत्याही उपयुक्त डिक्शनरीज सापडल्या नाहीत"
 
-#: plugins/spell/spell.vala:75
+#: plugins/spell/spell.vala:74
 msgid "Please install at least one [aspell] dictionary."
 msgstr "कृपया कमीत कमी एक [aspell] dictionary इन्स्टॉल करा."
 
